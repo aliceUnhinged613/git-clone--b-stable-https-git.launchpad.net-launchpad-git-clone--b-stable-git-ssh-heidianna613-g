@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Kebaikan dan keburukan penggubahan</title>
+
+  <section id="pros">
+    <title>Kelebihan</title>
+    <list>
+      <item>
+        <p>Kelihatan lebih baik &amp; feel: Animasi tetingkap, bayang-bayang dan ketelusan.</p>
+      </item>
+      <item>
+        <p>Sokongan applikasi moden yang lebih baik: Dekorasi Client-side dalam GTK3 adalah lebih baik disokong oleh pengurus tetingkap yang digubah.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Keburukan</title>
+
+    <list>
+      <item>
+        <p>Pemaparan GPU: Bergantung pada kad grafik and drivers anda, pemaparang dengan GPU (berbanding dengan CPU) boleh menyebabkan visual artifak atau skrin terkoyak.</p>
+      </item>
+      <item>
+        <p>Penggunaan sumber: Penggubahan memerlukan lebih sumber. Ini boleh menyebabkan prestasi lebih lambat atau kurang autonomi bateri pada komputer riba.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

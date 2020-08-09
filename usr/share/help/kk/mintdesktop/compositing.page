@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Композитингтің артықшылықтары мен кемшіліктері</title>
+
+  <section id="pros">
+    <title>Артықшылықтары</title>
+    <list>
+      <item>
+        <p>Жақсартылған сыртқы түрі: терезелер анимациясы, көлеңке мен мөлдірлік.</p>
+      </item>
+      <item>
+        <p>GTK3-де Қазіргі заманғы бағдармалар қолдау: композитті терезелер  менеджерлері берілген бағдарламамен ресімдеу терезесін қолдайды (client-side decorations).</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Кемшіліктері</title>
+
+    <list>
+      <item>
+        <p>GPU-рендеринг: сіздің бейнекарта және орнатылған драйверлерге байланысты, GPU-рендеринг (CPU-рендеринг айырмашылығы) графикалық артефактілер және алшақтықты суреттер тудыруы мүмкін.</p>
+      </item>
+      <item>
+        <p>Ресурстарды тұтыну: композитинг көп ресурстарды талап етеді және жүйені баяулатуы немесе ноутбуктегі батарея жұмыс қуатын қысқартуы мүмкін.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>ภาพรวมของตัวจัดการหน้าต่างบางตัว</title>
+
+  <p>ที่นี่มีคำแนะนำบางอย่างเกี่ยวกับตัวจัดการหน้าต่างที่ใช้ได้</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco คือโปรแกรมจัดการหน้าต่างปริยายสำหรับสภาพแวดล้อมพื้นโต๊ะของ MATE ซึ่งมีความเสถียรและทำงานได้อย่างน่าไว้ใจมาก สามารถทำงานโดยที่จะจัดองค์ประกอบของหน้าต่างหรือไม่ก็ได้</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity คือโปรแกรมจัดการหน้าต่างปริยายสำหรับสภาพแวดล้อมพื้นโต๊ะ GNOME 2 ซึ่งมีความเสถียรและทำงานได้อย่างน่าไว้ใจมาก สามารถทำงานโดยที่จะจัดองค์ประกอบของหน้าต่างหรือไม่ก็ได้</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 คือโปรแกรมจัดการหน้าต่างปริยายสำหรับสภาพแวดล้อมพื้นโต๊ะ Xfce ซึ่งมีความเสถียรและทำงานได้อย่างน่าไว้ใจมาก สามารถทำงานโดยที่จะจัดองค์ประกอบของหน้าต่างหรือไม่ก็ได้</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz เป็นโปรแกรมจัดการหน้าต่างที่น่าทึ่งมาก สามารถปรับแต่งได้หลากหลาย โดยมีเอฟเฟกต์และแอนิเมชันให้เลือกได้มากมาย แต่ความเสถียรและความน่าไว้ใจในการทำงานมีค่อนข้างน้อย</p>
+    <p>Linux Mint จะติดตั้ง Compiz มาให้โดยปริยาย คำเตือน: ไม่สามารถใช้ใน LMDE ได้</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton คือโปรแกรมจัดการองค์ประกอบ ใช้ในการทำงานร่วมกับโปรแกรมจัดการหน้าต่าง เช่น Macro Metacity หรือ Xfwm4 ถ้าเป็น Xfce การใช้ Xfwm4+Compton จะช่วยไม่ให้เกิดภาพบนหน้าจอแตกได้</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox คือตัวจัดการหน้าต่างที่ทำงานได้รวดเร็วและทำงานอย่างง่าย</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

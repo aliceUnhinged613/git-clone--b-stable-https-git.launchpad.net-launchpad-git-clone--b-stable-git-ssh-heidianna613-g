@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>การตั้งค่าพื้นโต๊ะ</title>
+
+	<p>ยินดีต้อนรับสู่ 'ค่าตั้งพื้นโต๊ะ'</p>
+
+  <section id="windows" style="2column">
+    <title>หน้าต่าง</title>
+	<p>ส่วนของ หน้าต่าง จะให้คุณเลือกตัวจัดการหน้าต่าง</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>ขอบของหน้าต่าง, แถบชื่อเรื่อง, ปุ่มหน้าต่าง</p></item>
+		<item><p>ความเคลื่อนไหวเกี่ยวกับหน้าต่าง (ย้าย, ปรับขนาด, แสดงแบบอย่างเดียว)</p></item>
+		<item><p>การจัดองค์ประกอบ (เงา แอนิเมชัน เอฟเฟกต์ การแสดงผล GPU)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

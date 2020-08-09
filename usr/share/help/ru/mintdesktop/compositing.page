@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Плюсы и минусы композитинга</title>
+
+  <section id="pros">
+    <title>Преимущества</title>
+    <list>
+      <item>
+        <p>Улучшенный внешний вид: анимация окон, тени и прозрачность.</p>
+      </item>
+      <item>
+        <p>Поддержка современных приложений: композитные менеджеры окон лучше поддерживают заданное приложением оформление окна (client-side decorations) в GTK3.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Недостатки</title>
+
+    <list>
+      <item>
+        <p>GPU-рендеринг: в зависимости от вашей видеокарты и установленных драйверов, GPU-рендеринг (в отличие от CPU-рендеринга) может вызывать графические артефакты и разрывы изображения.</p>
+      </item>
+      <item>
+        <p>Потребление ресурсов: композитинг требует больше ресурсов и может замедлить систему или сократить время работы от батареи на ноутбуках.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

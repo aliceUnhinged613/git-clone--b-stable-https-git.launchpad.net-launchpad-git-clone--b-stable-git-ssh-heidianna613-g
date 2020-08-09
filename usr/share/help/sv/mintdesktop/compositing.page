@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>För- och nackdelar med skrivbordseffekter</title>
+
+  <section id="pros">
+    <title>Fördelar</title>
+    <list>
+      <item>
+        <p>Bättre utseende &amp; känsla: Fönster-animationer, skuggor och transparens.</p>
+      </item>
+      <item>
+        <p>Bättre stöd för moderna applikationer: För dekorationer på klientsidan ger GTK3 ett bättre stöd åt fönsterhanterare som stöder skrivbordseffekter.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Nackdelar</title>
+
+    <list>
+      <item>
+        <p>GPU-rendering: Beroende på grafikkort och grafikdrivrutiner kan rendering med GPU, istället för CPU, resultera i bildstörningar som artefakter och visuella felaktigheter (screen tearing).</p>
+      </item>
+      <item>
+        <p>Resursanvändning: Skrivbordseffekter kräver mer systemresurser. Detta kan innebära sämre prestanda eller reducerad batteridrift för bärbara datorer.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

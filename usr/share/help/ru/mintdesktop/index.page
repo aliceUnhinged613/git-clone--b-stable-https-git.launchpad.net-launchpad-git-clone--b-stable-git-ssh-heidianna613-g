@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Настройки рабочего стола</title>
+
+	<p>Добро пожаловать в настройки рабочего стола.</p>
+
+  <section id="windows" style="2column">
+    <title>Окна</title>
+	<p>В разделе "Окна" вы можете выбрать оконный менеджер.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Границы, заголовки и кнопки окон</p></item>
+		<item><p>Действия с окном (перемещение, изменение рамера, фокусировка)</p></item>
+		<item><p>Композитинг (тени, анимации, эффекты, GPU-рендеринг)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

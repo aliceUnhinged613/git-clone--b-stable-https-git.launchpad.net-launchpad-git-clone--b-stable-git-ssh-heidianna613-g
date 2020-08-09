@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Ülevaade aknahalduritest</title>
+
+  <p>Siin on kirjeldus saadaval olevatest aknahalduritest.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco on vaikimisi aknahaldur MATE töölauakeskkonnas. See on väga stabiilne ja usaldusväärne. See töötab komposiitimisega ja ilma.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity oli vaikimisi aknahaldur GNOME 2 töölauakeskkonnas. See on väga stabiilne ja usaldusväärne. See töötab komposiitimisega ja ilma.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 on vaikimisi aknahaldur Xfce töölauakeskkonnas. See on väga stabiilne ja usaldusväärne. See töötab komposiitimisega ja ilma.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz on muljetavaldav aknahaldur, laias ulatuses seadistatav ja sisaldab paljusid imelisi efekte ja animatsioone. Siiski on see teistega võrreldes kõige vähem usaldusväärne ja vähem stabiilne.</p>
+    <p>Compiz on Linux Mintis vaikimisi paigaldatud. Märkus: see ei ole saadaval LMDEs.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton on komposiitimishaldur. Seda saab kasutada koos aknahalduritega nagu Marco, Metacity või Xfwm4. Xfce keskkonnas vähendab Xfwm4 ja Comptoni kasutamine ekraani "rebimist".</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox on kiire ja väga kerge aknahaldur.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Fordeler og ulemper med sammensetning</title>
+
+  <section id="pros">
+    <title>Fordeler</title>
+    <list>
+      <item>
+        <p>Bedre utseende &amp; Følelse: Vinduets animasjoner, skygger og gjennomsiktighet.</p>
+      </item>
+      <item>
+        <p>Bedre støtte til moderne applikasjoner: Klientsiden dekorasjoner i GTK3 er bedre støttet av kompositt vindu ledere.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Ulemper</title>
+
+    <list>
+      <item>
+        <p>GPU-gjengivelse: Avhengig av grafikkortet og driverne kan gjengivelse med GPU (i motsetning til CPU) resultere i visuelle gjenstander eller skjermsår.</p>
+      </item>
+      <item>
+        <p>Ressursbruk: Komposisjon krever flere ressurser. Dette kan resultere i lavere ytelse eller redusert batteriautonomi på bærbare datamaskiner.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

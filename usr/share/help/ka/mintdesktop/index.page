@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Desktop Settings</title>
+
+	<p>Welcome to Desktop Settings.</p>
+
+  <section id="windows" style="2column">
+    <title>ფანჯრები</title>
+	<p>ფანჯრების სექცია საშვალებას გაძლევთ აირჩიოთ ფანჯრის მენეჯერი</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>ფანჯრების ჩარჩოები, სათაურის ადგილები და ფანჯრის ღილაკები</p></item>
+		<item><p>ფანჯრის მოქმედებები (გადაადგილება, ზომის ცვლილება, ფანჯრების ფოკუსირბა)</p></item>
+		<item><p>კომპოზირება (ჩრდილები, ანიმაციები, ეფექტები, GPU რენდერი)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

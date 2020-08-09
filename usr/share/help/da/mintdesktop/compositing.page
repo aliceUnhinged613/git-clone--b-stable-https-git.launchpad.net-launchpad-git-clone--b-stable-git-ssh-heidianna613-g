@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Fordele og ulemper ved compositing</title>
+
+  <section id="pros">
+    <title>Fordele</title>
+    <list>
+      <item>
+        <p>Bedre udseende og funktionalitet: vinduesanimationer, skygger og gennemsigtighed.</p>
+      </item>
+      <item>
+        <p>Bedre understøttelse af moderne programmer: udsmykning på klientsiden i GTK3 understøttes bedre af vindueshåndtering med compositing.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Ulemper</title>
+
+    <list>
+      <item>
+        <p>GPU-gengivelse: afhænger af dit grafikkort og dine drivere, gengivelse med GPU'en (i modsætning til med CPU'en) kan medføre visuelle artefakter eller "screen tearing".</p>
+      </item>
+      <item>
+        <p>Ressourceforbrug: Compositing kræver flere ressourcer. Dette kan resultere i lavere ydeevne og reduceret batteritid på bærbare computere.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

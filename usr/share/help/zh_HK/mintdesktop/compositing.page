@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Compositing 的優點與缺點</title>
+
+  <section id="pros">
+    <title>優點</title>
+    <list>
+      <item>
+        <p>更好的外觀和質感：視窗動畫、陰影與透明感。</p>
+      </item>
+      <item>
+        <p>更好的現代應用程式支援：特效合成視窗管理員提供更好的用戶端 GTK3 裝飾支援。</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>缺點</title>
+
+    <list>
+      <item>
+        <p>GPU 彩現：取決於你的顯示卡與其驅動程式，以 GPU (而非 CPU) 彩現，可能會導致視覺假影或畫面撕裂。</p>
+      </item>
+      <item>
+        <p>資源使用量：特效合成 (Compositing) 需要更多資源。這可能導致效能緩慢，或降低手提電腦的電池續航力。</p>
+      </item>
+    </list>
+  </section>
+
+</page>

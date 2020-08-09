@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Työpöydän asetukset</title>
+
+	<p>Tervetuloa työpöydän asetuksiin.</p>
+
+  <section id="windows" style="2column">
+    <title>Ikkunat</title>
+	<p>Ikkunat-osiossa voi valita käytettävän ikkunoinninhallinnan.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Ikkunoiden reunuksista, otsikkopalkista ja ikkunoiden painikkeista</p></item>
+		<item><p>Ikkunoinnin tapahtumista (liikuttaminen, koon muuttaminen, ikkunan kohdistaminen)</p></item>
+		<item><p>Sommittelusta (varjot, animaatiot, efektit, GPU -piirtäminen)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

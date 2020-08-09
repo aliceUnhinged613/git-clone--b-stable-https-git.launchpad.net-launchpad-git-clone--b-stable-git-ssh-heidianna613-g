@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Výhody a nevýhody kompozície</title>
+
+  <section id="pros">
+    <title>Výhody</title>
+    <list>
+      <item>
+        <p>Lepší výzor a pocit: animácie okien, tiene a priesvitnosť.</p>
+      </item>
+      <item>
+        <p>Lepšia podpora pre moderné aplikácie: Dekorácie na strane klienta v GTK3 sú lepšie podporované zloženými správcami okien.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Nevýhody</title>
+
+    <list>
+      <item>
+        <p>GPU renderovanie: V závislosti od vašej grafickej karty a vašich ovládačov, renderovanie s GPU (na rozdiel od CPU) môže spôsobiť vizuálne chybičky a trhanie obrazu.</p>
+      </item>
+      <item>
+        <p>Využitie zdrojov: Kompozícia vyžaduje viac zdrojov. To môže viesť ku zníženému výkonu, alebo pri notebookoch ku skrátenej výdrži batérie.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

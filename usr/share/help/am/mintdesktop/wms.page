@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>ሊነክስ ሚንት</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>አንዳንድ የ መስኮት አስተዳዳሪዎች ባጠቃላይ</title>
+
+  <p>መግለጫ ለ ጥቂት የ መስኮት አስተዳዳሪዎች ባጠቃላይ</p>
+
+  <section id="pros">
+    <title>ማርኮ</title>
+    <p>ማርኮ ነባር የ መስኮት አስተዳዳሪ ነው ለ ሜት ዴስክቶፕ: በጣም አስተማማኝ ነው: እና ማስኬድ ይቻላል ብቻውን ወይንም ከ ሌሎች ጥምረት ጋር</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity ነባር የ መስኮት አስተዳዳሪ ነው ለ GNOME 2 ዴስክቶፕ: በጣም የ ተረጋጋ እና አስተማማኝ ነው: ማስኬድ ይቻላል ከ ወይንም ያለ ጥምረት</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 ነባር የ መስኮት አስተዳዳሪ ነው ለ Xfce ዴስክቶፕ: በጣም የ ተረጋጋ እና አስተማማኝ ነው: ማስኬድ ይቻላል ከ ወይንም ያለ ጥምረት</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>ኮምፒዝ</title>
+    <p>Compiz አስደናቂ የ መስኮት አስተዳዳሪ ነው: በ ቀላሉ የሚሰናዳ እና ሙሉ አስደናቂ ውጤቶች እና እንቅስቃሴ ያለው: ነገር ግን አስተማማኝ አይደለም</p>
+    <p>Compiz በ ነባር ይገጠማል በ ሊነክስ ሚንት ውስጥ: ያስታውሱ በ LMDE. አይኖርም</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton is a compositing አስተዳዳሪ ነው: መጠቀም ይቻላል ለ መቀላቀል ከ መስኮት አስተዳዳሪ ጋር: እንደ Marco, Metacity ወይንም Xfwm4. በ Xfce, መጠቀም Xfwm4+Compton መመልከቻውን ከ መቀደድ ይጠብቀዋል</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox ፈጣን እና ቀላል-ክብደት የሆነ የ መስኮት አስተዳዳሪ ነው</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

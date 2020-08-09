@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Skrivebordsinnstillinger</title>
+
+	<p>Velkommen til Skrivebordsinnstillinger</p>
+
+  <section id="windows" style="2column">
+    <title>Vinduer</title>
+	<p>Vindusinnstillingene lar deg velge en vindusbehandler.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Vindusrammer, tittellinjer og tittellinjeknapper</p></item>
+		<item><p>Vindushendelser (flytte, endre størrelse,  endre vindu i fokus)</p></item>
+		<item><p>Komposisjon (skygger, animasjoner, effekter, GPU-gjengivelse)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

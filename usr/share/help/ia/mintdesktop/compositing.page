@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Pro e contra del composition</title>
+
+  <section id="pros">
+    <title>Avantages</title>
+    <list>
+      <item>
+        <p>Melior aspecto &amp;sensibilitate de: animationes de fenestra, umbras e transparentia.</p>
+      </item>
+      <item>
+        <p>Melior supporto pro le applicationes hodierne: le decorationes client-side in GTK3 es melio supportate per le administratores de fenestra composite.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Disavantages</title>
+
+    <list>
+      <item>
+        <p>Rendition per GPU: dependente de tu carta graphic e tu drivers, le rendition per le GPU (in loco del CPU) pote resultar in artefactos o instabilitate de schermo.</p>
+      </item>
+      <item>
+        <p>Uso de ressources: le composition require plus de ressources. Ce pote resultar in performance plus lente o autonomia de batteria reducite sur le computatores portabile.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

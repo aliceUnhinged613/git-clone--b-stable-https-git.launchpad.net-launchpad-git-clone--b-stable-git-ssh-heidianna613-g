@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Линукс Минт</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Плюсове и минуси на композирането</title>
+
+  <section id="pros">
+    <title>Предимства</title>
+    <list>
+      <item>
+        <p>По-добър вид&amp; и стил на анимациите на прозорците, сенките и прозрачността.</p>
+      </item>
+      <item>
+        <p>По добра работа с модерни приложения: Декорациите в GTK3 имат по-добра поддръжка на композираните мениджъри на прозорци.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Недостатъци</title>
+
+    <list>
+      <item>
+        <p>Рендиране на графичния процесор: Според видео картата и драйверите, Рендирането с графичната карта (за разлика от процесора) може да доведе до артефакти и трептене на екрана.</p>
+      </item>
+      <item>
+        <p>Използване на ресурси: Композирането изисква повече ресурси. Това може да доведе до по-ниска производителност или до по-ниска издържливост на батериите на лаптопите.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

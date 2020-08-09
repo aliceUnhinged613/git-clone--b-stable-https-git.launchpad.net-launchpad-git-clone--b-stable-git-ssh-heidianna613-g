@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Impostazioni del desktop</title>
+
+	<p>Benvenuto nelle Impostazioni Desktop</p>
+
+  <section id="windows" style="2column">
+    <title>Finestre</title>
+	<p>La sezione Finestre ti permette di scegliere un gestore di finestre (window manager).</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Bordi delle finestre, barre del titolo e pulsanti delle finestre</p></item>
+		<item><p>Eventi della finestra (spostamento, ridimensionamento, fuoco)</p></item>
+		<item><p>Grafica (ombreggiature, animazioni, effetti, rendering GPU)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

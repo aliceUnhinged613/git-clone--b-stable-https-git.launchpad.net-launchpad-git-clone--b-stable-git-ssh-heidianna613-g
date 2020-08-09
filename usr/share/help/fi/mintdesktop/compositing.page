@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Sommittelun hyödyt ja haitat</title>
+
+  <section id="pros">
+    <title>Edut</title>
+    <list>
+      <item>
+        <p>Parempi tuntuma ja ulkoasu: Ikkunoiden animaatiot, varjot ja läpinäkyvyys.</p>
+      </item>
+      <item>
+        <p>Parempi tuki moderneille sovelluksille: Asiakaspuolen koristeet GTK+ 3:ssa ovat paremmin tuettuja sommittelua käyttävissä ikkunoinninhallintaohjelmissa.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Haitat</title>
+
+    <list>
+      <item>
+        <p>GPU-renderointi: Näytönohjaimesta ja ajureista riippuen GPU:lla renderointi (verrattuna CPU -renderointiin) voi johtaa kuvan häiriöihin tai repeilyefektiin.</p>
+      </item>
+      <item>
+        <p>Resurssien käyttö: Sommittelu vaatii enemmän resursseja. Tämä voi johtaa heikompaan suorituskykyyn tai vähentää akkukestoa kannettavissa tietokoneissa.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Kostir og gallar við að nota skjásamsetningu</title>
+
+  <section id="pros">
+    <title>Kostir</title>
+    <list>
+      <item>
+        <p>Betra útlit og viðmót: gluggahreyfingar, skuggar og gegnsæi.</p>
+      </item>
+      <item>
+        <p>Betri stuðningur við nútímaleg forrit: Biðlaraskreytingar (client-side) í GTK3 eru betur studdar af gluggastjórum með skjásamsetningar.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Gallar</title>
+
+    <list>
+      <item>
+        <p>Myndgerð með GPU: Það fer eftir skjákortinu og reklum þess, en myndgerð með GPU-örgjörva (en ekki CPU-aðalörgjörvanum) getur valdið myndrænum óhreinindum og skjálínuvíxlum.</p>
+      </item>
+      <item>
+        <p>Notkun tilfanga: Skjásamsetning krefst meiri reiknigetu. Það getur leitt til minni afkasta eða styttri rafhlöðuendingar á fartölvum.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

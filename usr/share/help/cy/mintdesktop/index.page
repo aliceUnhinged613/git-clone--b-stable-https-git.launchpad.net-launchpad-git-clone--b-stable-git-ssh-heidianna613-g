@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linus Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Gosodiadau Bwrdd Gwaith</title>
+
+	<p>Croeso i Osodiadau'r Bwrdd Gwaith</p>
+
+  <section id="windows" style="2column">
+    <title>Ffenestri</title>
+	<p>Mae'r adran Ffenestri'n caniatáu i chi ddewis rheolwr ffenestri.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Borderi, barau teitl a botymau ffenestri</p></item>
+		<item><p>Digwyddiadau ffenestri (symud, newid maint, canolbwyntio)</p></item>
+		<item><p>Cyfansawdd (cysgodion, animeiddio, effeithiau, rendro GPU)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

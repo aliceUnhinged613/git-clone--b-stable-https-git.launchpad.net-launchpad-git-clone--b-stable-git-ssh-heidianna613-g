@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Nastavení pracovního prostředí</title>
+
+	<p>Vítejte v nastavení pracovního prostředí.</p>
+
+  <section id="windows" style="2column">
+    <title>Okna</title>
+	<p>Sekce Okna umožňuje zvolit správce oken.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Okrajů a záhlaví oken a tlačítek v záhlaví oken</p></item>
+		<item><p>Událostí oken (přesun, změna velikosti, změna aktivního okna)</p></item>
+		<item><p>Rozvržení oken (stíny, animace, efekty, vykreslování prostředky grafického čipu)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

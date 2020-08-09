@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Mahaigainaren ezarpenak</title>
+
+	<p>Ongi etorri Mahaigainaren ezarpenetara</p>
+
+  <section id="windows" style="2column">
+    <title>Leihoak</title>
+	<p>Leihoak atalak leiho-kudeatzailea hautatzeko aukera ematen dizu.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Leihoen ertzak, titulu-barrak eta leihoen botoiak</p></item>
+		<item><p>Leihoen gertaerak  (lekuz eta tamainaz aldatzea, fokua hartzea)</p></item>
+		<item><p>Konposizioa (itzalak, animazioak, efektuak, GPU errendatzea)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

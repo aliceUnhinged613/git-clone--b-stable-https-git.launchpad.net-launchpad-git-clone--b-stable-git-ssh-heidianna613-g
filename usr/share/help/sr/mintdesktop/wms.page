@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Линукс Минт</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Преглед неких управника прозора</title>
+
+  <p>Следи опис неких доступних управника прозора.</p>
+
+  <section id="pros">
+    <title>Марко</title>
+    <p>Марко је подразумевани управник прозора за окружење радне површи у Мејту. Веома је стабилан и веома поуздан. Може да ради са или без слагања.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Метасити</title>
+    <p>Метасити је подразумевани управник прозора за окружење радне површи у Гному 2. Веома је стабилан и веома поуздан. Може да ради са или без слагања.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Иксфвм4</title>
+    <p>Иксфвм4 је подразумевани управник прозора за окружење радне површи у Иксфвм4. Веома је стабилан и веома поуздан. Може да ради са или без слагања.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Компиз</title>
+    <p>Компиз је веома импресиван управник прозора, врло подесив и пун невероватних ефеката и анимација. Међутим најмање је поуздан и најмање стабилан.</p>
+    <p>Компиз је већ унапред инсталиран у Линукс Минту. Напомена: Није доступан у ЛМДЕ-у.</p>
+  </section>
+
+  <section id="pros">
+    <title>Комптон</title>
+    <p>Комптон је управник слагања. Може бити коришћен заједно са управницима прозора као што су Марко, Метасити или Иксфвм4. У Иксфце-у, познато је да Иксфвм4 са Комптоном смањује треперење екрана.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Опенбокс</title>
+    <p>Опенбокс је брз и лаган управник прозора.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

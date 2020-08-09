@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Prós e contras de complementos.</title>
+
+  <section id="pros">
+    <title>Vantagens</title>
+    <list>
+      <item>
+        <p>Visão clara &amp; aparência: Animações de janela, sombras e transparência.</p>
+      </item>
+      <item>
+        <p>Melhor suporte para aplicações modernas: Client-side decorações em GTK3 são melhores suportadas por complementos de gerenciadores de janelas.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Desvantagens</title>
+
+    <list>
+      <item>
+        <p>Renderização de GPU : Depende da placa de vídeo e seus respectivos drivers, renderização com GPU (como oposto a CPU) pode resultar em artefatos visuais ou rasgo na tela.</p>
+      </item>
+      <item>
+        <p>Utilização de recursos: Composição requer mais recursos. Isto pode resultar negativamente no desempenho ou reduzir a autonomia da bateria em computadores portáteis.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

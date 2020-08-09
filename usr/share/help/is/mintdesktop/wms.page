@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Yfirlit um nokkrar gluggastýringar</title>
+
+  <p>Hér er lýsing á nokkrum af þeim gluggastýringum sem tiltækar eru</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco er sjálfgefinn gluggastjóri fyrir MATE skjáborðsumhverfið. Hann er mjög stöðugur og áreiðanlegur. Hann getur keyrt með eða án skjásamsetningar.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity var sjálfgefinn gluggastjóri fyrir GNOME2 skjáborðsumhverfið. Hann er mjög stöðugur og áreiðanlegur. Hann getur keyrt með eða án skjásamsetningar.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 er sjálfgefinn gluggastjóri fyrir Xfce skjáborðsumhverfið. Hann er mjög stöðugur og áreiðanlegur. Hann getur keyrt með eða án skjásamsetningar.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz er verulega öflugur gluggastjóri, stillanlegur á alla kanta og fullur af áhrifamiklum sjónhverfingum og hreyfibrellum. Aftur á móti er hann kannski sá sem síst er hægt að treysta til að virka fullkomlega og getur verið nokkuð óstöðugur.</p>
+    <p>Compiz er sjálfgefið uppsettur í Linux Mint. Athugaðu: Hann er ekki tiltækur í LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton er skjásamsetningarstjóri. Hægt er að nota hann með gluggastjórum á borð við Marco, Metacity eða Xfwm4. Í Xfce er notkun Xfwm4+Compton þekkt fyrir að minnka skjálínuvíxl (screen tearing).</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox er léttur og hraðvirkur gluggastjóri.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

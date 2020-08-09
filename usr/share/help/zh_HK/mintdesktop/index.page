@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>桌面設定</title>
+
+	<p>歡迎來到桌面設定。</p>
+
+  <section id="windows" style="2column">
+    <title>視窗</title>
+	<p>此視窗作業階段讓你選擇視窗管理員。</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>視窗邊框、標題列與視窗按鈕</p></item>
+		<item><p>視窗事件 (移動、重新調整大小、聚焦視窗)</p></item>
+		<item><p>特效合成 (Compositing) (陰影、動畫、效果、GPU 彩現)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

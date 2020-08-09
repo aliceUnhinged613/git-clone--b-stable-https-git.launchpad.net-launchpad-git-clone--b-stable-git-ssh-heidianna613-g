@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Fyrimunir og vansar við compositing</title>
+
+  <section id="pros">
+    <title>Fyrimunir</title>
+    <list>
+      <item>
+        <p>Betri útsjónd &amp; feel: Windows myndir, skuggar og gjøgnumskygni.</p>
+      </item>
+      <item>
+        <p>Betri stuðlan av  nýggjari forritum: Client-side myndagerð í GTK3 eru betri stuðlað við composited window managers.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Vansar</title>
+
+    <list>
+      <item>
+        <p>GPU rendering: Tað velst um grafikk kort og dreivarir, men rendering við GPU (í mun til CPU) kann elva til sjónligar artifaktar ella ólag í skíggjamynd.</p>
+      </item>
+      <item>
+        <p>Resource usage: Compositing requires more resources. This can result in slower performance or reduced battery autonomy on laptop computers.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

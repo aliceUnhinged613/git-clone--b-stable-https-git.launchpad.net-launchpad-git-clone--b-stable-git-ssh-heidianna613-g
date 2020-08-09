@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linus Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>O blaid ac yn erbyn cyfansawdd</title>
+
+  <section id="pros">
+    <title>Manteision</title>
+    <list>
+      <item>
+        <p>Gwell golwg a theimlad: animeiddio ffenestri, cysgodion a thryloywder.</p>
+      </item>
+      <item>
+        <p>Gwell cefnogaeth i raglenni diweddar: addurniadau ochr y cleient yn GTK3 yn cael eu cynnal yn well gan reolwyr ffenestri cyfansawdd.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Anfanteision</title>
+
+    <list>
+      <item>
+        <p>Rendro GPU: yn ddibynnol ar eich cerdyn graffeg a'ch gyrwyr, gall rendro gyda'r GPU (yn lle'r CPU) arwain at frychau gweledol neu rwygiadau ar y sgrin.</p>
+      </item>
+      <item>
+        <p>Defnydd o adnoddau: Mae 'r cyfansawdd yn gofyn am ragor o adnoddau. Gall hyn arwain at berfformiad arafach neu lai o annibyniaeth batri ar liniaduron.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

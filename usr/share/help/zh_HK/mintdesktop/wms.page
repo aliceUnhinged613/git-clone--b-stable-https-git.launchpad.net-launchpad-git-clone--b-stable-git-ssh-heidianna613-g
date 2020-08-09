@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>視窗管理員總覽</title>
+
+  <p>這裏是一些可用視窗管理員的說明。</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco 是 MATE 桌面環境的預設視窗管理員，非常穩定、可靠。其可與特效合成 (compositing) 共同執行或獨立執行。</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity 是 GNOME 2 桌面環境的預設視窗管理員，非常穩定、可靠。其可與特效合成 (compositing) 共同執行或獨立執行。</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 是 Xfce 桌面環境的預設視窗管理員，非常穩定、可靠。其可與特效合成 (compositing) 共同執行或獨立執行。</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz 是個非常出色的視窗管理員，組態設定自由度極高，而且充滿令人驚奇的效果與動畫。然而，其可靠度與穩定度最低。</p>
+    <p>Compiz 預設安裝於 Linux Mint。注意：其無法使用於 LMDE。</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton 是個特效合成 (compositing) 管理員。其可與視窗管理員 (如 Marco、Metacity 或 Xfwm4) 組合使用。在 Xfce，使用 Xfwm4 + Compton 已知可以減少畫面撕裂。</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox 是個快速且輕量的視窗管理員。</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

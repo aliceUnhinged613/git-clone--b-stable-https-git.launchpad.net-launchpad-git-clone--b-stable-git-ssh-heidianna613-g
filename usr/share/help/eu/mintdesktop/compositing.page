@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Konposizioaren abantaila eta desabantailak</title>
+
+  <section id="pros">
+    <title>Abantailak</title>
+    <list>
+      <item>
+        <p>Itxura hobea: leihoen animazioak, itzalak eta gardentasuna.</p>
+      </item>
+      <item>
+        <p>Aplikazio modernoentzako euskarri hobea: GTK3ko bezeroko apaingarriek euskarri hobea dute konposiziodun leiho-kudeatzaileetan.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Desabantailak</title>
+
+    <list>
+      <item>
+        <p>GPU errendatzea: zure txartel grafikoaren eta kontrolatzaileen arabera gerta daiteke GPU bidez errendatzean (PUZ bidez izan beharrean) errore bisualak edo pantaila urraketak ematea.</p>
+      </item>
+      <item>
+        <p>Baliabideen erabilera: konposizioak baliabide gehiago behar ditu. Honek errendimendua gutxitzea eragin dezake edo bateriaren autonomia txikitzea ordenagailu eramangarrietan.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

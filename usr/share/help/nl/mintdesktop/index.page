@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Bureaubladinstellingen</title>
+
+	<p>Welkom bij Werkomgeving-instellingen.</p>
+
+  <section id="windows" style="2column">
+    <title>Vensters</title>
+	<p>Het onderdeel Vensters stelt u in staat om een vensterbeheerder te kiezen.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Vensterranden, titelbalken en vensterknoppen</p></item>
+		<item><p>Venstergebeurtenissen (verplaatsen, herschalen, scherpstellen op vensters)</p></item>
+		<item><p>Beeldsamenstelling (schaduwen, animaties, effecten, GPU-weergave)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

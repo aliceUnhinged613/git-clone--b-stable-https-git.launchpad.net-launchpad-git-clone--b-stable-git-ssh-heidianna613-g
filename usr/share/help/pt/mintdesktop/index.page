@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Definições do ambiente de trabalho</title>
+
+	<p>Bem-vindo às definições do ambiente de trabalho.</p>
+
+  <section id="windows" style="2column">
+    <title>Janelas</title>
+	<p>A secção Janelas permite-lhe escolher o gestor de janelas.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Contornos, barras e botões das janelas</p></item>
+		<item><p>Eventos de janelas (mover, ajuste de tamanho e foco de janelas)</p></item>
+		<item><p>Composição (sombras, animações, efeitos e renderização)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

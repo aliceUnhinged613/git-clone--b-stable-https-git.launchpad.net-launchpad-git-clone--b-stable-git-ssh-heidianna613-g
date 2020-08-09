@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Pros i contres de la composició</title>
+
+  <section id="pros">
+    <title>Avantatges</title>
+    <list>
+      <item>
+        <p>Millor aparença: animació de finestres, ombres i transparències.</p>
+      </item>
+      <item>
+        <p>Millor suport per a aplicacions modernes: els gestors de finestres amb composició donen millor suport a la decoració del costat del client en GTK3.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Desavantatges</title>
+
+    <list>
+      <item>
+        <p>Processament de GPU: depenent de la targeta gràfica i els seus controladors, la representació amb la GPU (a diferència de la CPU) pot donar lloc a artefactes visuals o discontinuïtats en la imatge.</p>
+      </item>
+      <item>
+        <p>Ús de recursos: la composició requereix més recursos. Això pot resultar en un rendiment més lent o reduir l'autonomia de la bateria en els ordinadors portàtils.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

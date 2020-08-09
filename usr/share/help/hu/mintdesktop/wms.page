@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Az ablakkezelők áttekintése</title>
+
+  <p>Itt találja néhány elérhető ablakkezelő leírását.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>A Marco az alapértelmezett ablakkezelő a MATE asztali környezethez. Ez egy nagyon stabil és megbízható ablakkezelő, amely kompozitálással vagy anélkül is futtatható.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>A Metacity az alapértelmezett ablakkezelő a GNOME 2 asztali környezethez. Ez egy nagyon stabil és megbízható ablakkezelő, amely kompozitálással vagy anélkül is futtatható.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Az Xfwm4 az alapértelmezett ablakkezelő az Xfwm4 asztali környezethez. Ez egy nagyon stabil és megbízható ablakkezelő, amely kompozitálással vagy anélkül is futtatható.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>A Compiz egy igazán lenyűgöző ablakkezelő, amely nagy mértékben testreszabható és látványos effektusokkal, valamint animációkkal kápráztatja el a felhasználókat. Viszont kevésbé megbízható és stabil.</p>
+    <p>A Compiz alapértelmezetten telepítésre kerül a Linux Mint-ben. Megjegyzés: Nem érhető el LMDE használata esetén.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>A Compton egy kompozitáló kezelő. Használható együttműködésben többek között a következő ablakkezelőkkel Marco, Metacity vagy Xfwm4. Xfce esetén a Xfwm4 és Compton együttes használata csökkenti a képernyőkép szétesést.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Az Openbox egy gyors és pehelysúlyú ablakkezelő.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

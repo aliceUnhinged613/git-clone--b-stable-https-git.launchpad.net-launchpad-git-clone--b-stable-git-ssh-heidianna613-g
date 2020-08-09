@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Vantagens e desvantagens da composição</title>
+
+  <section id="pros">
+    <title>Vantagens</title>
+    <list>
+      <item>
+        <p>Melhor aspeto: animações de janelas, sombras e transparências.</p>
+      </item>
+      <item>
+        <p>Melhor suporte para aplicações modernas: decorações 'client-side' em GTK3 são melhor suportadas por gestores de janelas com composição.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Desvantagens</title>
+
+    <list>
+      <item>
+        <p>Renderização de GPU: dependendo da placa de vídeo e dos controladores, pode resultar na desconfiguração da tela (ao contrário da renderização com o CPU).</p>
+      </item>
+      <item>
+        <p>Utilização de recursos: a composição requer mais recursos. Isso pode resultar num desempenho mais lento ou reduzir a autonomia da bateria em computadores portáteis.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

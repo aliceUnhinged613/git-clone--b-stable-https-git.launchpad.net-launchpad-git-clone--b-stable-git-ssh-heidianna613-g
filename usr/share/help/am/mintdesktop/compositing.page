@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>ሊነክስ ሚንት</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>የ ማዋሀጃ ጥቅም እና ጉዳት</title>
+
+  <section id="pros">
+    <title>ጥቅሙ</title>
+    <list>
+      <item>
+        <p>የ ተሻለ መመልከቻ &amp; feel: የ መስኮት እንቅስቃሴ: ጥላዎች: እና ግልጽነት</p>
+      </item>
+      <item>
+        <p>ለ ዘመናዊ መተግባሪያ የ ተሻለ ድጋፍ: በ ደንበኞች-በኩል ማስጌጫ በ GTK3 በጣም የ ተደገፉ ናቸው ለ መቀላቀያ ለ መስኮት አስተዳዳሪ</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>ጉዳቱ</title>
+
+    <list>
+      <item>
+        <p>የ GPU አፈጻጸም: እንደ እርስዎ የ graphics ካርድ አይነት እና drivers ይለያያል: የ GPU አፈጻጸም: (as opposed to the CPU) መመልከቻውን ሊቀደው ይችላል</p>
+      </item>
+      <item>
+        <p>ምንጮች መጠቀሚያ: Compositing በርካታ ምንጮች ይጠቀማል:  ይህ በ አፈጻጸም ላይ መዘግየትን ይፈጥራል ወይንም የ ባትሪ ሀይል ይቀንሳል በ ላፕቶፕ ኮምፒዩተር ላይ</p>
+      </item>
+    </list>
+  </section>
+
+</page>

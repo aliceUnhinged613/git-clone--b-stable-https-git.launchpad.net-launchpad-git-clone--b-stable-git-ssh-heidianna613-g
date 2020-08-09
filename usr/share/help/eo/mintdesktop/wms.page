@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linukso Minto</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Superrigardo pri kelkaj fenestroadministriloj</title>
+
+  <p>Jen priskribo de kelkaj el la disponeblaj fenestroadministriloj.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco estas la defaŭlta fenestroadministrilo por labortabla ĉirkaŭaĵo MATE. Ĝi estas tre stabila kaj tre fidinda. Ĝi povas funkcii kun aŭ sen (bilda) kunmetado.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity estis la defaŭlta fenestroadministrilo por labortabla ĉirkaŭaĵo GNOME 2. Ĝi estas tre stabila kaj tre fidinda. Ĝi povas funkcii kun aŭ sen kunmetado.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 estas la defaŭlta fenestroadministrilo por labortabla ĉirkaŭaĵo Xfce. Ĝi estas tre stabila kaj tre fidinda. Ĝi povas funkcii kun aŭ sen kunmetado.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz estas tre impresa fenestroadministrilo, tre agordebla kaj plena je mirigaj efektoj kaj animacioj. Tamen ĝi estas plej malmulte fidinda kaj plej malmulte stabila.</p>
+    <p>Compiz estas defaŭlte instalita en Linukso Minto. Atentu: Ĝi ne disponeblas en LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton estas kunmetada administrilo. Ĝi uzeblas kune kun fenestroadministriloj kiel Marco, Metacity aŭ Xfwm4. En Xfce uzado de Xfwm4+Compton konate limigas bildan deformon.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox estas rapida kaj malpeza fenestroadministrilo.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

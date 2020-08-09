@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Panorama de alcun gestores de fenestras</title>
+
+  <p>Ecce un description de alcun de gestores de fenestra disponibile.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco es le administrator de fenestra standard pro le ambiente de scriptorio MATE. Illo es maxime stabile e maxime fidel. Illo pote fluer con o sin composition.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity ha essite le administrator de fenestra standard pro le ambiente de scriptorio GNOME. Illo es maxime stabile e maxime fidel. Illo pote fluer con o sin composition.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Si Metacity non es ja installate, tu pote installar lo per: <cmd>apt install metacity</cmd>. Illo es maxime stabile e maxime fidel. Illo pote fluer con o sin composition.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz es un administrator de fenestra maxime imponente, maxime configurabile e plen de effectos e animationes stupende. Illo es comocunque le minime fidel e le minime stabile.</p>
+    <p>Compiz es installate per option predefinite in Linux Mint. Nota: Illo es non disponibile in LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton es un administrator de composition. Illo pote ser usate in combination con gerentes fenestras tal como Marco, Metacity o Xfwm4. In Xfce, le uso de Xfwm4+Compton es note pro reducer le instabilitate del schermo.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox es un rapide e legier administrator de fenestra.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

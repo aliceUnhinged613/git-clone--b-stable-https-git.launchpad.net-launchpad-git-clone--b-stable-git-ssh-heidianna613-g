@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Ρυθμίσεις επιφάνειας εργασίας</title>
+
+	<p>Καλώς ήρθατε στις Ρυθμίσεις επιφάνειας εργασίας.</p>
+
+  <section id="windows" style="2column">
+    <title>Παράθυρα</title>
+	<p>Το τμήμα παραθύρων, σας επιτρέπει να επιλέξετε έναν διαχειριστή παραθύρων.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Περιθώρια παραθύρων, τίτλοι στις μπάρες και πλήκτρα παραθύρων</p></item>
+		<item><p>Συμβάντα παραθύρων (μετακίνηση, αλλαγή μεγέθους, εστίαση παραθύρων)</p></item>
+		<item><p>Compositing (σκιές, κινούμενα σχέδια, εφέ, απόδοση GPU)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

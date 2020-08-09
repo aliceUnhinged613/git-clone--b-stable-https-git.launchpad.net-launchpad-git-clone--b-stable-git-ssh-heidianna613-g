@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Przegląd niektórych menedżerów okien</title>
+
+  <p>Tutaj jest opis kilku dostępnych menedżerów okien.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco to domyślny zarządca okien dla środowiska pulpitowego MATE. Jest bardzo stabilny i solidny. Może być uruchomiony z lub bez kompozycji.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity był domyślnym zarządcą okien dla środowiska pulpitowego GNOME 2. Jest bardzo stabilny i solidny. Może być uruchomiony z lub bez kompozycji.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 to domyślny zarządca oknami w środowisku pulpitowym Xfce. Jest bardzo stabilny i naprawdę niezawodny. Może być uruchamiany z lub bez kompozycji.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz to bardzo potężny zarządca okien, wysoce konfigurowalny i pełen niesamowitych efektów i animacji. Jest taki jednakże kosztem mniejszej stabilności i solidności działania.</p>
+    <p>Compiz jest domyślnie zainstalowany w systemie Linux Mint. Uwaga: Nie jest dostępny w systemie LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton jest zarządcą kompozycji. Może być używany w powiązaniu z zarządcami okien, takimi jak Marco, Metacity czy Xfwm4. W środowisku Xfce łączne używanie Xfwm4+Compton ogranicza migotanie ekranu.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox jest szybkim i lekkim menedżerem okien.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Configuración del escritorio</title>
+
+	<p>Le damos la bienvenida a la configuración del escritorio.</p>
+
+  <section id="windows" style="2column">
+    <title>Ventanas</title>
+	<p>La sección Ventanas le permite elegir un gestor de ventanas.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Los bordes de las ventanas, las barras del título y los botones de las ventanas.</p></item>
+		<item><p>Los eventos de las ventanas (mover, cambiar el tamaño y enfocar las ventanas).</p></item>
+		<item><p>La composición (sombras, animaciones, efectos y procesamiento con la GPU).</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

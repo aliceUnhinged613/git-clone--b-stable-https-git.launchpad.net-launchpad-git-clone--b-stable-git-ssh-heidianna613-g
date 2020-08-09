@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Oversigt over nogle programmer til vindueshåndtering</title>
+
+  <p>Her er en beskrivelse af nogle af de tilgængelige programmer til vindueshåndtering.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco er standardprogrammet til vindueshåndtering i MATE-skrivebordsmiljøet. Det er meget stabilt og pålideligt. Det kan køre med eller uden compositing.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity var standardprogrammet til vindueshåndtering i GNOME 2-skrivebordsmiljøet. Det er meget stabilt og pålideligt. Det kan køre med eller uden compositing.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 er standardprogrammet til vindueshåndtering i Xfce-skrivebordsmiljøet. Det er meget stabilt og pålideligt. Det kan køre med eller uden compositing.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz er et meget imponerende program til vindueshåndtering med mange konfigurationsmuligheder og fuld af fantastiske effekter og animationer. Det er dog det mindst pålidelige og stabile.</p>
+    <p>Compiz er som standard installeret i Linux Mint. Bemærk, det er ikke tilgængeligt i LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton håndterer compositing. Det kan anvendes sammen med programmer til vindueshåndtering som f.eks. Marco, Metacity eller Xfwm4. I Xfce kan Xfwm4 i kombination med Compton reducere "screen tearing".</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox er et hurtigt letvægtsprogram til vindueshåndtering.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

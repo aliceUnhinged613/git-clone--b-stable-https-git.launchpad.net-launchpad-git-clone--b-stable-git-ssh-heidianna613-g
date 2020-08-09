@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Visão geral de alguns gerenciadores de janelas</title>
+
+  <p>Aqui está uma descrição de alguns dos gerenciadores de janelas disponíveis.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco é o gerenciador principal de janelas do ambiente MATE. Ele é muito estável e confiável. Pode ser executado com ou sem complementos.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity era o gerenciador de janelas padrão do ambiente GNOME2. Estável e confiável. Pode ser executado com ou sem complementos.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 é o gerenciador de janelas padrão para ambientes desktop Xfce.  Estável e confiável. Pode ser executado com ou sem complementos.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz é um gerenciador de janelas impressionante, bem configurado e repleto de incríveis efeitos e animações. Porém, é menos confiável e estável.</p>
+    <p>Compiz é instalado por padrão no Linux Mint. Nota: Não está disponível em LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton é um gerenciador de complementos. Pode ser utilizado em paralelo com gerenciadores de janela como também o Marco, Metacity ou Xfwm4. Em Xfce, a utilização de Xfwm4+Compton é conhecida por reduzir tela com rasgo ou tela tremendo.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox é um rápido e leve gerenciador de janelas.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

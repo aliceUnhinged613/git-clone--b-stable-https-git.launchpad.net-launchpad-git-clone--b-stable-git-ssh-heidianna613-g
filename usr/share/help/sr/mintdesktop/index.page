@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Линукс Минт</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Поставке радне површи</title>
+
+	<p>Добро дошли у подешавања радне површи.</p>
+
+  <section id="windows" style="2column">
+    <title>Прозор</title>
+	<p>У одељку прозора можете изабрати управника прозора.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Ивице прозора, насловне траке и дугмад прозора</p></item>
+		<item><p>Догађаје прозора (премештање, промену величине, фокусрање прозора)</p></item>
+		<item><p>Слагање (сенке, анимације, ефекте, исцртавање графичког процесора)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

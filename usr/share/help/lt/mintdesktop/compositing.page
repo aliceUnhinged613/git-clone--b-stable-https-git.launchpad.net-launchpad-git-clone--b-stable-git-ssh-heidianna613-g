@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Argumentai už ir prieš kompozicionavimą</title>
+
+  <section id="pros">
+    <title>Privalumai</title>
+    <list>
+      <item>
+        <p>Geresnė išvaizda ir turinys: Langų animacijos, šešėliai ir permatomumas.</p>
+      </item>
+      <item>
+        <p>Geresnis šiuolaikinių programų palaikymas: GTK3 kliento pusės dekoracijos yra geriau palaikomos kompozicionuojamų langų tvarkytuvių.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Trūkumai</title>
+
+    <list>
+      <item>
+        <p>Vaizdo plokštės atvaizdavimas: Priklausomai nuo jūsų grafikos plokštės ir jūsų tvarkyklių, atvaizdavimas per vaizdo plokštę (priešingai nei per procesorių) gali sukelti vizualius artefaktus ir ekrano perskyrimą.</p>
+      </item>
+      <item>
+        <p>Išteklių naudojimas: Kompozicionavimas reikalauja daugiau išteklių. Tai nešiojamuose kompiuteriuose gali sąlygoti mažesnį našumą ir didesnį baterijos įkrovos išnaudojimą.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

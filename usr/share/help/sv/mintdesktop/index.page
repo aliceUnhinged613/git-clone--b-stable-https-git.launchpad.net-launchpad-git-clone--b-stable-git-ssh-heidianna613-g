@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Skrivbordsinställningar</title>
+
+	<p>Välkommen till Skrivbordsinställningar</p>
+
+  <section id="windows" style="2column">
+    <title>Fönster</title>
+	<p>I sektionen Fönster kan du välja fönsterhanterare.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Fönsterkanter, titelfält och fönsterknappar.</p></item>
+		<item><p>Fönster-händelser (flytta, storleksändring, fokus)</p></item>
+		<item><p>Skrivbordseffekter (skyggor, animationer, effekter, GPU-rendering)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

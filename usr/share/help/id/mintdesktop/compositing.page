@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Kelebihan dan kekurangan dalam berkomposisi</title>
+
+  <section id="pros">
+    <title>Keuntungan</title>
+    <list>
+      <item>
+        <p>Tampilan &amp; rasa yang lebih baik: Animasi jendela, bayangan, dan tembus pandang.</p>
+      </item>
+      <item>
+        <p>Dukungan yang lebih baik bagi aplikasi-aplikasi modern: Dekorasi sisi-klien dalam GTK3 didukung lebih baik oleh manajer jendela terkomposisi.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Kekurangan</title>
+
+    <list>
+      <item>
+        <p>Perenderan GPU: Bergantung kepada kartu grafis Anda dan driver Anda, perenderan dengan GPU (bukan oleh CPU) dapat menghasilkan artefak tambak atau robeknya layar.</p>
+      </item>
+      <item>
+        <p>Penggunaan sumber daya: Pengkomposisian memerlukan lebih banyak sumber daya. Ini dapat menyebabkan kinerja yang lebih lambat atau masa pakai baterai yang berkurang pada komputer laptop.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

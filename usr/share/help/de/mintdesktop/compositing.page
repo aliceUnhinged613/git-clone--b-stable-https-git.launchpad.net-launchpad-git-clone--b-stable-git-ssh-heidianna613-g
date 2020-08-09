@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Vor- und Nachteile von Komposit</title>
+
+  <section id="pros">
+    <title>Vorteile</title>
+    <list>
+      <item>
+        <p>Besseres Aussehen &amp; Handhabung: Fenster-Animationen, Schatten und Durchsichtigkeit.</p>
+      </item>
+      <item>
+        <p>Bessere Unterstützung für moderne Anwendungen: programmseitige Dekorationen in GTK3 werden besser durch Kompositfensterverwaltungen unterstützt.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Nachteile</title>
+
+    <list>
+      <item>
+        <p>GPU-Rendering: Abhängig von Ihrer Grafikkarte und Ihren Treibern, Rendering mit der GPU (im Gegensatz zur CPU) kann zu visuellen Artefakten oder Einzelbildzerreißen führen.</p>
+      </item>
+      <item>
+        <p>Ressourcennutzung: Komposit erfordert mehr Ressourcen. Das kann zu langsamerer Leistung oder reduziertem Akkubetrieb auf Laptop-Rechnern führen.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

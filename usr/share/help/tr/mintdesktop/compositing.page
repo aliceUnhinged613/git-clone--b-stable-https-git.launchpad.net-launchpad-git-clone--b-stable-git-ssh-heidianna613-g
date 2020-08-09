@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Compositing, artıları ve eksileri</title>
+
+  <section id="pros">
+    <title>Avantajları</title>
+    <list>
+      <item>
+        <p>Daha iyi görünüm hissi: Pencere animasyonları, gölgelendirmeler ve şeffaflık.</p>
+      </item>
+      <item>
+        <p>Modern uygulamalar için daha iyi destek: GTK3'de istemci bazlı dekorasyonlar için, görüntü birleştirme destekli pencere yönetimi daha iyi sonuç vemektedir.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Dezavantajları</title>
+
+    <list>
+      <item>
+        <p>GPU işleme: GPU ile işleme (CPU aksine), grafik kart ve sürücülerine bağlı olarak görsel doku sorunlarına ya da ekran yırtılmalarına neden olabilir.</p>
+      </item>
+      <item>
+        <p>Kaynak kullanımı: Görüntü birleştirme daha fazla kaynak gerektirir. Bu taşınabilir bilgisayarlarda performansa ve pil kullanım süresine etki eder.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

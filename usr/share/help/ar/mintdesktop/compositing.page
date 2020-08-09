@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>إيجابيات وسلبيات التركيب</title>
+
+  <section id="pros">
+    <title>المزايا</title>
+    <list>
+      <item>
+        <p>نظرة أفضل  </p>
+      </item>
+      <item>
+        <p>دعم أفضل للتطبيقات الحديثة: الزخارف من جانب العميل في GTK3 مدعومة بشكل أفضل من قبل مديري النوافذ المركبة.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>السلبيات</title>
+
+    <list>
+      <item>
+        <p>عرض الجرافيك: اعتماداً على بطاقة الرسومات الخاصة بك وبرامج التشغيل الخاصة بك، يمكن أن يؤدي تقديم وحدة معالجة الرسومات (على عكس وحدة المعالجة المركزية) إلى إنتاج أدوات مرئية أو تمزيق الشاشة.</p>
+      </item>
+      <item>
+        <p>استخدام الموارد: يتطلب التركيب المزيد من الموارد. يمكن أن يؤدي ذلك إلى أداء بطيء أو استقلال أقل للبطارية على أجهزة الكمبيوتر المحمولة.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

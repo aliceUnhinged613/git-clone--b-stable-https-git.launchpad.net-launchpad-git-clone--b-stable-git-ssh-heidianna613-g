@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Paramètres du bureau</title>
+
+	<p>Bienvenue aux paramêtres du bureau.</p>
+
+  <section id="windows" style="2column">
+    <title>Fenêtres</title>
+	<p>La section 'Fenêtres' vous permet de choisir votre gestionnaire de fenêtres.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Bordures de fenêtres, barres de titre, boutons de fenêtres</p></item>
+		<item><p>Évènements de fenêtres (déplacements, redimensionnements, activations de fenêtres)</p></item>
+		<item><p>Composition (ombres, animations, effets, rendu GPU)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

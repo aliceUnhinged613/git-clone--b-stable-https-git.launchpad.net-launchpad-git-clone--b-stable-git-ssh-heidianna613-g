@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Darbalaukio nustatymai</title>
+
+	<p>Sveiki atvykę į darbalaukio nustatymus.</p>
+
+  <section id="windows" style="2column">
+    <title>Langai</title>
+	<p>Langų sekcija leidžia jums pasirinkti langų tvarkytuvę.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Langų kraštus, antračių juostas ir lango mygtukus</p></item>
+		<item><p>Lango įvykius (perkėlimą, dydžio keitimą, langų fokusavimą)</p></item>
+		<item><p>Kompozicionavimą (šešėlius, animacijas, efektus, vaizdo plokštės perdavimą)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

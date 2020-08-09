@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Sèberos de Iscriania</title>
+
+	<p>Bene Bènnidu in sos Sèberos de Iscriania.</p>
+
+  <section id="windows" style="2column">
+    <title>Bentanas</title>
+	<p>Sa setzione Bentanas ti permitet de ischirriare unu manigiadore de bentanas (window manager).</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Oros de sa bentanas, barras de su tìtulu e butones de sa bentana</p></item>
+		<item><p>Eventos de sa bentana (movimentu, mannària, fogu)</p></item>
+		<item><p>Compositing (umbras, animatziones, efetos, rendering GPU)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

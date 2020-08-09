@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Θετικά και αρνητικά του compositing</title>
+
+  <section id="pros">
+    <title>Πλεονεκτήματα</title>
+    <list>
+      <item>
+        <p>Καλύτερη εμφάνιση &amp; αίσθηση: Παράθυρο κινούμενων σχεδίων, σκιές και διαφάνεια.</p>
+      </item>
+      <item>
+        <p>Καλύτερη υποστήριξη για τις σύγχρονες εφαρμογές: Client-side διακοσμήσεις σε GTK3 υποστηρίζονται καλύτερα από σύμμεικτες διαχειριστές παραθύρων.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Μειονεκτήματα</title>
+
+    <list>
+      <item>
+        <p>Απόδοση GPU: Ανάλογα με την κάρτα γραφικών σας και τους οδηγούς (drivers), η απόδοση με την GPU (σε αντίθεση με τη CPU) μπορεί να οδηγήσει σε οπτική προβλήματα ή σχίσιμο οθόνης.</p>
+      </item>
+      <item>
+        <p>Χρήση πόρων: το Compositing απαιτεί περισσότερους πόρους. Αυτό μπορεί να οδηγήσει σε πιο αργή απόδοση ή μειωμένη αυτονομία μπαταρίας για τους φορητούς υπολογιστές.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

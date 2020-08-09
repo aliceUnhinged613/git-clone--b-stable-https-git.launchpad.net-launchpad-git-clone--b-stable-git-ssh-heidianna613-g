@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Линукс Минт</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>За и против слагања</title>
+
+  <section id="pros">
+    <title>Предности</title>
+    <list>
+      <item>
+        <p>Бољи изглед и угођај: Анимације прозора, сенке и прозирност.</p>
+      </item>
+      <item>
+        <p>Боља подршка за савремене програме: Украси на страни клијента у Гтк3 су боље подржани саставним управницима прозора.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Недостаци</title>
+
+    <list>
+      <item>
+        <p>Исцртавање графичког процесора: У зависности од ваше графичке картице и управљачких програма, исцртавање графичким процесором (наспрам радног процесора) може довести до чудног приказа или цимања екрана.</p>
+      </item>
+      <item>
+        <p>Употреба ресурса: Слагање захтева више ресурса. Ово може довести до споријих преформанси или смањења аутономије батерије на преносним рачунарима.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

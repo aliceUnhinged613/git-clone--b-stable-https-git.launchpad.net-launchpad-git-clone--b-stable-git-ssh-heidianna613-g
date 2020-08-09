@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>合成的优缺点</title>
+
+  <section id="pros">
+    <title>优点</title>
+    <list>
+      <item>
+        <p>更好的外观和感觉：窗口动画，阴影，透明。</p>
+      </item>
+      <item>
+        <p>对现代应用程序的更好支持：合成窗口管理器对 GTK3 的客户端装饰有更好的支持。</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>缺点</title>
+
+    <list>
+      <item>
+        <p>GPU 渲染：使用 GPU 而非CPU来渲染可能会导致视觉伪影和画面撕裂，这依赖于您的显卡和驱动器。</p>
+      </item>
+      <item>
+        <p>资源使用：合成需要更多的资源。这可能会影响您的计算机的性能，并且减少笔记本电脑使用电池的时间。</p>
+      </item>
+    </list>
+  </section>
+
+</page>

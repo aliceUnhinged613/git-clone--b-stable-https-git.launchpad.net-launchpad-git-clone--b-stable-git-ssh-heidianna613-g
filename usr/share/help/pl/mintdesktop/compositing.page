@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Zalety i wady kompozycji</title>
+
+  <section id="pros">
+    <title>Zalety</title>
+    <list>
+      <item>
+        <p>Lepszy wygląd i odczucia: animacje okien, cienie i przezroczystość.</p>
+      </item>
+      <item>
+        <p>Lepsza obsługa nowoczesnych programów: Dekoracje od strony klienta w GTK3 są lepiej obsługiwane przez zarządców okien z włączonymi kompozycjami.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Wady</title>
+
+    <list>
+      <item>
+        <p>Renderowanie przez GPU: W zależności od posiadanej karty graficznej i jej sterowników, renderowanie przez GPU (w przeciwieństwie do CPU) może powodować artefakty graficzne i migotanie ekranu.</p>
+      </item>
+      <item>
+        <p>Użycie zasobów: Kompozycje wymagają więcej zasobów. Może to skutkować mniejszą wydajnością lub redukować szybciej zasoby baterii w laptopach.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

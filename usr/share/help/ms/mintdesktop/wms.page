@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Gambaran untuk beberapa pengurus tetingkap</title>
+
+  <p>Ini adalah deskripsi untuk beberapa pengurus tetingkap yang ada.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco ialah pengurus tetingkap lalai untuk persekitaran desktop MATE. Ianya sangat stabil dan sangat dipercayai. Ia boleh berjalan dengan atau tanpa penggubahan.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity ialah pengurus tetingkap lalai untuk persekitaran desktop GNOME 2. Ianya sangat stabil dan sangat depercayai. Ia boleh berjalan dengan atau tanpa penggubahan.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 ialah pengurus tetingkap lalai untuk persekitaran desktop Xfce. Ianya sangat stabil dan sangat dipercayai. Ia boleh berjalan dengan atau tanpa penggubahan.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz ialah pengurus tetingkap yang sangat mantap, boleh dikonfigurasikan dan penuh dengan animasi dan efek. Namun, ianya kurang dipercayai dan kurang stabil.</p>
+    <p>Compiz dipasang secara lalai oleh Linux Mint. Nota: Ianya tidak tersedia dalam LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton ialah satu pengurus penggubahan. Ia boleh digunakan bersama dengan pengurus tetingkap seperti Marco, Metacity atau Xfwm4. Dalam Xfce, menggunakan Xfwm4+Compton dikenali untuk mengurangkan skrin terkoyak (Screen tearing).</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox ialah pengurus tetingkap yang pantas dan ringan.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

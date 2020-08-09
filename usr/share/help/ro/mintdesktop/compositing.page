@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Pro și contra compunerii</title>
+
+  <section id="pros">
+    <title>Avantaje</title>
+    <list>
+      <item>
+        <p>Aspect  senza</p>
+      </item>
+      <item>
+        <p>Suport mai bun pentru aplicații moderne: Decorațiunile pe partea client în GTK3 sunt mai bine suportate de administratorii de ferestre compuse.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Dezavantaje</title>
+
+    <list>
+      <item>
+        <p>Redare GPU: În funcție de placa grafică și drivere, redarea cu GPU (spre deosebire de CPU) poate duce la artefacte vizuale sau „rupere” de ecran.</p>
+      </item>
+      <item>
+        <p>Utilizarea resurselor: Compunerea necesită mai multe resurse. Acest lucru poate duce la performanță mai redusă sau la reducerea autonomiei bateriei la laptopuri.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

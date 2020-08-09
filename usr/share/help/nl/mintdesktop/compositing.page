@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Voor- en nadelen van beeldsamenstelling</title>
+
+  <section id="pros">
+    <title>Voordelen</title>
+    <list>
+      <item>
+        <p>Beter uiterlijk: venstereffecten, schaduwen en doorzichtigheid.</p>
+      </item>
+      <item>
+        <p>Betere ondersteuning voor moderne toepassingen: GTK3-versieringen worden beter ondersteund door vensterbeheerders met beeldsamenstelling.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Nadelen</title>
+
+    <list>
+      <item>
+        <p>GPU-weergave: afhankelijk van uw videokaart en stuurprogramma's, kan weergave met de GPU (in tegenstelling tot de CPU) beeldvervorming veroorzaken (blokjes of strepen).</p>
+      </item>
+      <item>
+        <p>Systeemkrachtverbruik: beeldsamenstelling vereist meer systeemkracht. Dit kan mindere prestaties veroorzaken of verminderde accuduur van laptops.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Výhody a nevýhody kompozitních efektů</title>
+
+  <section id="pros">
+    <title>Výhody</title>
+    <list>
+      <item>
+        <p>Lepší dojem ze vzhledu: animace oken, stínování a průhlednost.</p>
+      </item>
+      <item>
+        <p>Lepší podpora pro moderní aplikace: dekorace na straně aplikací v GTK 3 jsou lépe podporovány kompozitními správci oken.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Nevýhody</title>
+
+    <list>
+      <item>
+        <p>Vykreslováno prostředky grafického čipu: dle kvalit přítomného čipu a jeho ovladačů tento způsob (oproti vypočítáváním grafiky procesorem) může vést k chybnému či neplynulému (trhavému) vykreslování.</p>
+      </item>
+      <item>
+        <p>Nároky na systémové prostředky: kompozice jich vyžaduje více. Výsledkem může být nižší výkon, či zkrácená výdrž na akumulátor u přenosných počítačů.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

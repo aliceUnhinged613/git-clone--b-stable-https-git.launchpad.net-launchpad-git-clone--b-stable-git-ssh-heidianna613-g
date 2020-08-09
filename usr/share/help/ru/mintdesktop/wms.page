@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Обзор ряда оконных менеджеров</title>
+
+  <p>Здесь описаны несколько из доступных оконных менеджеров.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco — стандартный оконный менеджер среды MATE. Он очень стабилен и надёжен. Может работать как с композитингом, так и без него.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity был стандартным оконным менеджером среды GNOME 2. Он очень стабилен и надёжен. Может работать как с композитингом, так и без него.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 — стандартный оконный менеджер среды Xfce. Он очень стабилен и надёжен. Может работать как с композитингом, так и без него.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz - это очень впечатляющий оконный менеджер, хорошо настраиваемый и полный удивительных эффектов и анимаций. Тем не менее, он наименее надёжен и стабилен.</p>
+    <p>Compiz установлен в Linux Mint по умолчанию. Примечание: в версии LMDE он недоступен.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton - это менеджер компоновки. Его можно использовать в сочетании с такими оконными менеджерами, как Marco, Metacity или Xfwm4. Известно, что использование в Xfce сочетания Xfwm4+Compton уменьшает разрывы экрана.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox - это быстрый и лёгкий оконный менеджер.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

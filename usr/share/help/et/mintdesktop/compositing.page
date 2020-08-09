@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Komposiitimise eelised ja puudused</title>
+
+  <section id="pros">
+    <title>Eelised</title>
+    <list>
+      <item>
+        <p>Parem välimus ja tunnetus: akende animatsioonid, varjud ja läbipaistvus.</p>
+      </item>
+      <item>
+        <p>Parem kaasaegsete rakenduste tugi: komposiitivad aknahaldurid toetavad paremini kliendipoolseid GTK3 dekoratsioone.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Puudused</title>
+
+    <list>
+      <item>
+        <p>GPU renderdus: sõltuvalt graafikakaardist ja draiveritest, võib GPUga renderdamine (vastandina CPUga renderdamisele) põhjustada nähtavaid vigu või ekraani "rebimist".</p>
+      </item>
+      <item>
+        <p>Ressursikasutus: komposiitimine kasutab rohkem ressursse. See võib põhjustada arvuti väiksemat jõudlust või sülearvutitel aku kiiremat tühjenemist.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

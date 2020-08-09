@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Töölaua seaded</title>
+
+	<p>Tere tulemast töölaua seadistusse.</p>
+
+  <section id="windows" style="2column">
+    <title>Aknad</title>
+	<p>See aken lubab valida aknahalduri.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>akende äärised, tiitliribad, akna nupud</p></item>
+		<item><p>akna sündmused (liigutamine, suuruse muutmine, fokuseerimine)</p></item>
+		<item><p>komposiitimine (varjud, animatsioonid, efektid, GPU renderdus)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

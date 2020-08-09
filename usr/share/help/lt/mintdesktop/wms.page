@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Kai kurių langų tvarkytuvių apžvalga</title>
+
+  <p>Štai trumpas kai kurių prienamų langų tvarkytuvių aprašas.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco yra numatytoji MATE darbalaukio aplinkos langų tvarkytuvė. Ji yra labai stabili ir labai patikima. Ji gali būti paleidžiama su ir be kompozicionavimo.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity buvo numatytoji GNOME 2 darbalaukio aplinkos langų tvarkytuvė. Ji yra labai stabili ir labai patikima. Ji gali būti paleidžiama su ir be kompozicionavimo.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 yra numatytoji Xfce darbalaukio aplinkos langų tvarkytuvė. Ji yra labai stabili ir labai patikima. Ji gali būti paleidžiama su ir be kompozicionavimo.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz yra labai įspūdinga langų tvarkytuvė, plačiai konfigūruojama ir pilna nuostabių efektų ir animacijų. Tačiau ji yra nepatikimiausia ir nestabiliausia.</p>
+    <p>Linux Mint sistemoje, Compiz pagal numatymą yra įdiegta. Pastaba: Ji nėra prieinama LMDE versijoje.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton yra kompozicionavimo tvarkytuvė. Ji gali būti naudojama kartu su tokiomis langų tvarkytuvėmis kaip Marco, Metacity ar Xfwm4. Yra žinoma, kad Xfce aplinkoje, naudojant Xfwm+Compton, yra sumažinamas ekrano perskyrimas.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox yra greita ir supaprastinta langų tvarkytuvė.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

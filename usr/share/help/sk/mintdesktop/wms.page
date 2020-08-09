@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Prehľad niektorých správcov okien</title>
+
+  <p>Tu je popis niektorých dostupných správcov okien.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco je predvoleným správcom okien pre prostredie MATE. Je veľmi stabilný a spoľahlivý. Vie bežať s, aj bez kompozície.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity je predvoleným správcom okien pre prostredie GNOME 2. Je veľmi stabilný a spoľahlivý. Vie bežať s, aj bez kompozície.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 je predvoleným správcom okien pre prostredie Xfce. Je veľmi stabilný a spoľahlivý. Vie bežať s, aj bez kompozície.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz je pôsobivým správcom okien, je nastaviteľný a plný úžasných efektov a animácií. Je ale najmenej spoľahlivý a najmenej stabilný.</p>
+    <p>Compiz je v Linuxe Mint nainštalovaný predvolene. Poznámka: nie je dostupný v LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton je správca kompozície. Môže byť používaný v kombinácií so správcami okien ako Marco, Metacity, alebo Xfwm4. V Xfce je používanie Xfwm4+Compton známe pre zníženie trhania obrazovky.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox je rýchlim a jednoduchým správcom okien.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

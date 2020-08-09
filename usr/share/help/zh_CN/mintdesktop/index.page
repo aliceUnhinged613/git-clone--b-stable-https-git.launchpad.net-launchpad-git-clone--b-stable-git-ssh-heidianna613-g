@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>桌面设置</title>
+
+	<p>欢迎来到桌面设置。</p>
+
+  <section id="windows" style="2column">
+    <title>窗口</title>
+	<p>窗口部分让您选择一个窗口管理器。</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>窗口边框，标题栏，窗口按钮</p></item>
+		<item><p>窗口事件 (移动，更改大小，聚焦)</p></item>
+		<item><p>合成 (阴影，动画，特效，GPU 渲染)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

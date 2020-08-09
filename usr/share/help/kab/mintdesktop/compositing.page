@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Ibaɣuren akked iɛewwiqen n usuddes</title>
+
+  <section id="pros">
+    <title>Ibaɣuren</title>
+    <list>
+      <item>
+        <p>Tamuɣli ifazen: asmussu n isfuyla, tili akked tefrawant.</p>
+      </item>
+      <item>
+        <p>Tiddin igerrzen i isnasen itraren: Adlag si tama n umsaɣ di GTK3 ittedu ugar deg imsefraken n isfuyla uddisen.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Iɛewwiqen</title>
+
+    <list>
+      <item>
+        <p>Tiririt GPU : i lmend n tkarḍa tudlift inek akked inuḍaf inek, tiririt s GPU  (deg umḍiq n GPU) tezmer ad d-teglu s usexreb n ubeqqeḍ neɣ s ucerreg n ugdil.</p>
+      </item>
+      <item>
+        <p>Tiɣbula: asuddes yesra ugar n teɣbula. Yezmer ad d-yeglu s usenqes n tikli neɣ s usenqes n twurmanit n tbatrit deg iselkimen izirazen.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

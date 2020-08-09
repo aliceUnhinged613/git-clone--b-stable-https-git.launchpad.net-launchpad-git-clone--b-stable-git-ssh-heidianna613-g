@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>A kompozitálás előnyei és hátrányai</title>
+
+  <section id="pros">
+    <title>Előnyök</title>
+    <list>
+      <item>
+        <p>Jobb felhasználói élmény, ablak animációk, árnyékok és átlátszóság.</p>
+      </item>
+      <item>
+        <p>Jobb támogatás a modern alkalmazásokhoz: Kliens oldali ablakdekorációk támogatása jobb a kompozitáló ablakkezelőkben.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Hátrányok</title>
+
+    <list>
+      <item>
+        <p>GPU leképzés: A grafikus kártyától és a illesztőprogramtól függően a GPU leképzés (a CPU leképzéssel ellentétben) hibás megjelenést és a képernyőkép szétesését okozhatja.</p>
+      </item>
+      <item>
+        <p>Erőforrás felhasználás: A kompozitálás több erőforrást igényel. Ez rosszabb teljesítményt és laptopon rövidebb akkumulátoros üzemidőt okozhat.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

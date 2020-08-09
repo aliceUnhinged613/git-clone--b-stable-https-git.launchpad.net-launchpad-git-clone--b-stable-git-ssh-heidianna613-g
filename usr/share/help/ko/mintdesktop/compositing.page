@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>리눅스 민트</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>컴포지팅 모드의 장단점</title>
+
+  <section id="pros">
+    <title>장점</title>
+    <list>
+      <item>
+        <p>보기 좋다: 창 애니메이션, 그림자 효과, 투명 효과.</p>
+      </item>
+      <item>
+        <p>더 나은 최신 애플리케이션 지원: GTK3의 사용자 꾸미기가 컴포지팅 윈도우 매니저에서 훨씬 더 잘 지원됩니다.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>단점</title>
+
+    <list>
+      <item>
+        <p>GPU 렌더링: 사용 중이신 그래픽 카드나 드라이버에 따라, GPU 렌더링을 사용하면 (CPU 반대로) 잔상이나 테어링 현상이 생길 수 있습니다.</p>
+      </item>
+      <item>
+        <p>리소스 사용: 컴포지팅은 더 많은 리소스를 요구합니다. 그래서 성능 저하가 생기거나 랩탑 컴퓨터의 배터리가 빨리 달 수 있습니다.</p>
+      </item>
+    </list>
+  </section>
+
+</page>

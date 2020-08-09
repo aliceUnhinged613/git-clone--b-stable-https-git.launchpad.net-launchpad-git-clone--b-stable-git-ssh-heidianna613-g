@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+
+  <info>
+
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Mga setting para sa pook ng likha</title>
+
+	<p>Welcome to Desktop Settings.</p>
+
+  <section id="windows" style="2column">
+    <title>Mga Window</title>
+	<p>The Windows section lets you choose a window manager.</p>
+
+	<note><p>Within the operating system, the <gui>window manager</gui> is the part which is responsible for:</p>
+	<list>
+		<item><p>Windows borders, title bars and window buttons</p></item>
+		<item><p>Window events (moving, resizing, focusing windows)</p></item>
+		<item><p>Compositing (shadows, animations, effects, GPU rendering)</p></item>
+	</list>
+	</note>
+
+  </section>
+
+</page>

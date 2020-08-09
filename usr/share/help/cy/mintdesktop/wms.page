@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linus Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Trosolwg o rhai rheolwyr ffenestri</title>
+
+  <p>Dyma ddisgrifiad o rhai o'r rheolwyr ffenestri sydd ar gael.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Maro yw rheolwr ffenestri rhagosodedig amgylchedd bwrdd gwaith MATE. Mae'n gadarn a dibynadwy. Gall redeg gyda neu heb gyfansawdd.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity yw rheolwr ffenestri rhagosodedig amgylchedd bwrdd gwaith GNOME 2. Mae'n gadarn a dibynadwy. Gall redeg gyda neu heb gyfansawdd.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 yw rheolwr ffenestri rhagosodedig amgylchedd bwrdd gwaith Xfce. Mae'n gadarn a dibynadwy. Gall redeg gyda neu heb gyfansawdd.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Mae Compiz yn reolwr ffenestr trawiadol, hawdd ei addasu ac yn llawn o effeithiau ac animeiddiadau gwych. Er hynny, mae'r lleiaf dibynnadwy a chadarn.</p>
+    <p>Mae Compiz wedi ei osod drwy ragosodiad ar Linux Mint. Sylwch nad yw ar gael yn LMDE.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Mae Compton yn rheolwr cyfansawdd. Gall gael ei gyfuno gyda rheolwyr ffenestri megis Marco, Metacity neu Xfwm4, mae'n hysbys fod defnyddio Xfwm4 a Compton yn lleihau rhwygo ar y sgrin.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Mae Openbox yn rheolwr ffenestri ysgafn a chwim.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

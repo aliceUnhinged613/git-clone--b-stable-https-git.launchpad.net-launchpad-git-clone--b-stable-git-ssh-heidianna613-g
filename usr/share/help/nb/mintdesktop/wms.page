@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Oversikt over noen av vindusbehandlerne</title>
+
+  <p>Her er en beskrivelse av noen vindusbehandlere som er tilgjengelige</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco er standard vindusbehandler for MATE skrivebordmiljøet. Det er veldig stabilt og veldig pålitelig. det kan kjøre med eller uten compositing.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity var standard vindusbehandler for GNOME 2 skrivebordmiljøet. Det er veldig stabilt og veldig pålitelig. det kan kjøre med eller uten compositing.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 er standard vindusbehandler for skrivebordsmiljøet Xfce. Den er svært stabil og pålitelig. Den kan brukes med eller uten sammensetning.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz er en imponerende vindusbehandler med mange konfigurasjonsmuligheter, full av utrolige effekter og animasjoner. Den er imidlertid den minst pålitelige og minst stabile vindusbehandleren.</p>
+    <p>Compiz er installert som standard i Linux Mint. NB: Compiz er ikke tilgjengelig i LMDE</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton er en komposjonsleder. Den kan brukes i kombinasjon med Windows-ledere som Marco, Metacity eller Xfwm4. I Xfce, er det kjent med Xfwm4 + Compton å redusere skjermsår.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox er en rask og lett vindusbehandler</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Übersicht über einige Fensterverwaltungen</title>
+
+  <p>Hier stehen Beschreibungen von einigen Fensterverwaltungen zur Verfügung.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco ist die vorgegebene Fensterverwaltung für die MATE-Arbeitsumgebung. Sie ist sehr stabil und sehr zuverlässig. Sie kann mit oder ohne Komposit laufen.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity war die vorgegebene Fensterverwaltung für die GNOME-2-Arbeitsumgebung. Sie ist sehr stabil und sehr zuverlässig. Sie kann mit oder ohne Komposit laufen.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 ist die vorgegebene Fensterverwaltung für die Xfce-Arbeitsumgebung. Sie ist sehr stabil und sehr zuverlässig. Sie kann mit oder ohne Komposit laufen.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz ist ein sehr beeindruckende Fensterverwaltung, sehr konfigurierbar und voll von erstaunlichen Effekten und Animationen. Es ist jedoch die am wenigsten zuverlässige und am wenigsten stabile.</p>
+    <p>Compiz ist standardmäßig in Linux Mint installiert. Hinweis: Es ist in LMDE nicht verfügbar.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton ist eine Kompositverwaltung. Sie kann in Kombination mit Fensterverwaltungen wie Marco, Metacity oder Xfwm4 verwendet werden. In Xfce, mit Xfwm4+Compton, ist es bekannt, dass das Einzelbildzerreißen reduziert wird.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox ist eine schnelle und leichte Fensterverwaltung.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

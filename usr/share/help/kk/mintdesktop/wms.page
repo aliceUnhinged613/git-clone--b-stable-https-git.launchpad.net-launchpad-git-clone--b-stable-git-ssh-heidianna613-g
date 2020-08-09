@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="wms">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Кейбір терезе менеджерлерін шолу</title>
+
+  <p>Бұл жерде жетімді терезе менеджерлері жайлы сипатталады.</p>
+
+  <section id="pros">
+    <title>Marco</title>
+    <p>Marco — MATE ортасының қалыпты терезе менеджері. Ол өте Он очень стабилен и надёжен. Может работать как с композитингом, так и без него.</p>
+    <p>If Marco is not installed already, you can install it with <cmd>apt install marco</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Metacity</title>
+    <p>Metacity GNOME 2 ортаның стандартты терезе менеджері болды. Ол өте тұрақты және сенімді. Композитингпен немесе онсызда жұмыс істей алады.</p>
+    <p>If Metacity is not installed already, you can install it with <cmd>apt install metacity</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Xfwm4</title>
+    <p>Xfwm4 — Xfce ортаның стандартты терезе менеджері. Ол өте тұрақты және сенімді. Композитингпен немесе онсызда жұмыс істей алады.</p>
+    <p>If Xfwm4 is not installed already, you can install it with <cmd>apt install xfwm4</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compiz</title>
+    <p>Compiz - бұл өте әсерлі терезе менеджері, жақсы баптаулы және толық таңғажайып әсерлер мен анимациялар. Дегенмен, ол неғұрлым сенімді және тұрақты.</p>
+    <p>Compiz Linux Mint-те үнсіз түрде орнатылған. Ескертпе: LMDE нұсқасында ол қолжетімсіз.</p>
+  </section>
+
+  <section id="pros">
+    <title>Compton</title>
+    <p>Compton - бұл құрастыру менеджері. Оны Macro, Metacity немесе Xfwm4 сияқты терезе менеджерлерімен ұштастыра отырып қолдануға болады. Xfce-ні Xfwm4+Compton-мен ұштастыра пайдаланып экранның алшақтықтығын азайтады.</p>
+    <p>If Compton is not installed already, you can install it with <cmd>apt install compton</cmd>.</p>
+  </section>
+
+  <section id="pros">
+    <title>Openbox</title>
+    <p>Openbox - бұл жылдам және жеңіл терезе менеджері.</p>
+    <p>If Openbox is not installed already, you can install it with <cmd>apt install openbox</cmd>.</p>
+  </section>
+
+</page>

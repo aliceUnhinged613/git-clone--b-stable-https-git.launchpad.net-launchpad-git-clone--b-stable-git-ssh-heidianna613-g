@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="compositing">
+
+   <info>
+    <link type="guide" xref="index#windows"/>
+    <credit type="author">
+      <name>Linux Mint</name>
+      <email>root@linuxmint.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+  </info>
+
+  <title>Prednosti i nedostaci kompozitiranja</title>
+
+  <section id="pros">
+    <title>Prednosti</title>
+    <list>
+      <item>
+        <p>Bolji izgled i osjećaj: animacije prozora, sjenke i prozirnost.</p>
+      </item>
+      <item>
+        <p>Bolja podrška za moderne aplikacije: ukrasi klijenta u GTK3 su bolje podržani od strane kompozit upravitelja prozorima.</p>
+      </item>
+    </list>
+  </section>
+
+  <section id="cons">
+    <title>Nedostaci</title>
+
+    <list>
+      <item>
+        <p>GPU prikaz: ovisi o vašoj grafičkoj kartici i upravljačkim programima, prikaz s GPU-om (različito od CPU-a) može rezultirati artefaktima ili kidanjem zaslona.</p>
+      </item>
+      <item>
+        <p>Korištenje resursa: kompozitiranje koristi više resursa. To može rezultirati sporijim performansama ili smanjenom autonomijom baterije na prijenosnim računalima.</p>
+      </item>
+    </list>
+  </section>
+
+</page>
